@@ -1,0 +1,171 @@
+*{
+    padding:0;
+    margin:0;
+    font-style:normal;
+}
+
+body{
+    color: white;
+    background-color: black;
+}
+
+header{
+   display: flex;
+   flex-direction: row; 
+}
+
+header section{
+    margin-left: 80px;
+    margin-top: 40px;
+}
+
+.list {
+    display: flex;
+    list-style: none;
+    margin-top: 40px;
+    margin-left: 120px;
+}
+
+.list li{
+    margin-right: 60px;
+}
+
+li a{
+    color: white;
+    text-decoration: none;
+}
+
+.list li a:hover{
+    color: orangered;
+}
+
+header button{
+    position: fixed;
+    right:40px;
+    top: 40px;
+    height: 2em;
+    border-bottom-color: orangered;
+    background-color: black;
+    color: white;
+    border-left: 0;
+    border-top: 0;
+    border-right: 0;
+    z-index: 1;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+.intro{
+    margin-left: 80px;
+    margin-top: 120px;
+    font-size: 60px;
+}
+
+#explore{
+    margin-left: 80px;
+    margin-top: 120px; 
+    width: 240px;
+    height: 50px;
+    background-color: orangered;
+    border: 0;
+    font-size: 15px;
+}
+
+.option{
+    float: right;
+    margin-right: 60%;
+    font-size: 20px;
+}
+
+.design{
+    height: 600px;
+    width: 500px;
+    background-color: aliceblue;
+    position: absolute;
+    right:0;
+    bottom: 0px;
+}
+
+.design img {
+    background-size: cover;
+    bottom: 0;
+    padding:0;
+    margin:0;
+}
+
+.imgs2 img{
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    right: 400px;
+    bottom: 300px;
+    z-index: 1;
+}
+
+
+
+.trend {
+    height: 500px;
+    width: 1000px;
+    margin: auto;
+    padding: 10px;
+    margin-top: 200px;
+    width: 80%;
+    display: flex;
+}
+
+
+.trendBar1 {
+    width: 30%;
+    height: 60px;
+    background-color: rgb(29, 29, 29);
+    margin-top: 40px;
+    border-radius: 40px;
+    position: absolute;
+    float: left;
+}
+
+.trendBar1 ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    line-height: 60px;
+    margin-left: 10%;
+}
+
+.trendBar1 ul li{
+    margin-right: 15%;
+}
+
+.trendBar1 ul li a:hover {
+    color: orangered;
+}
+
+.trendBar2 {
+    width: 30%;
+    height: 60px;
+    background-color: rgb(29, 29, 29);
+    margin-top: 40px;
+    border-radius: 40px;
+    margin-left: 32%;
+    position: absolute;
+    float: left;
+}
+
+.trendBar2 ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    line-height: 70px;
+    margin-left: 10%;
+}
+
+.trendBar2 ul li{
+    margin-right: 15%;
+}
+
+.trendBar2 ul li a:hover {
+    color: orangered;
+}

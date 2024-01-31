@@ -169,3 +169,28 @@ button:hover{
 .trendBar2 ul li a:hover {
     color: orangered;
 }
+
+.collections ul{
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+    margin-left: 80px;
+}
+
+.second {
+    width: 400px;
+}
+
+.collections ul li {
+    margin-right: 50px;
+}
+
+.collections{
+    position: absolute;
+    margin-top: 150px;
+    background-color: rgb(29, 29, 29);
+    width: 80%;
+    height: 400px;
+}
